@@ -1,9 +1,9 @@
 # -*-coding: utf-8-*-
-'''
-1.login vào site http://45.79.43.178/source_carts/wordpress/wp-admin bằng code python. 
+"""
+1.login vào site http://45.79.43.178/source_carts/wordpress/wp-admin bằng code python.
 Sau khi login thành công thì lấy ra name của user vừa login
 email': 'admin', 'password': ''
-'''
+"""
 import requests
 from bs4 import BeautifulSoup
 
